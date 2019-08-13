@@ -13,5 +13,9 @@ public class Test {
 
         Car car2 = new BlackCarFactory().createCar();
         car2.run();
+
+        Integer i1 = new Integer(127);
+        Integer i2 = 127;
+        Integer i3 = new Integer(127);
     }
 }
