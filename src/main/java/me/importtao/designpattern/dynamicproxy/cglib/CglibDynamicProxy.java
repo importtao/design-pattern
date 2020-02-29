@@ -1,6 +1,5 @@
 package me.importtao.designpattern.dynamicproxy.cglib;
 
-import me.importtao.designpattern.dynamicproxy.Subject;
 import net.sf.cglib.proxy.Enhancer;
 import net.sf.cglib.proxy.MethodInterceptor;
 import net.sf.cglib.proxy.MethodProxy;

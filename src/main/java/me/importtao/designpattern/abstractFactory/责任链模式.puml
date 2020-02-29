@@ -1,0 +1,22 @@
+@startuml
+
+abstract class Handler{
+Handler nextHandler
+abstract handler()
+abstract setNextHandler()
+}
+class GetHandler
+class PostHandler
+class DeleteHandler
+class PutHandler
+class FilterHandler
+class Client
+
+Handler <.. Handler
+Handler <|-- GetHandler
+Handler <|-- PostHandler
+Handler <|-- DeleteHandler
+Handler <|-- PutHandler
+Handler <|-- FilterHandler
+Client ..> Handler
+@enduml
